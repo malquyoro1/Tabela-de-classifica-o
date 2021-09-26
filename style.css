@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: system-ui;
+  background-image: url(https://agendor-blog-uploads.s3.sa-east-1.amazonaws.com/2020/05/07153534/jogos-e-competicoes-para-equipe-de-vendas.jpg);
+  background-color: #111;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 180px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.link {
+  position: absolute;
+  text-decoration: none;
+  top: 25px;
+  right: 7px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: #ffd816;
+  background-color: #0e0c0ea8;
+  font-size: 40px;
+  text-align: center;
+  border: 2px solid #f0f3f7;
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-top: 50px;
+}
+h2,
+p {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+  background-color: #0e0c0e8f;
+}
+
+td > img {
+  max-height: 40px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  margin-bottom: 1px;
+}
+
+.form-wrapper button {
+  color: #3628ab;
+  background: #1ed1da;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  borde-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 2px solid #3628ab;
+  box-sizing: border-box;
+  border-radius: 15px;
+  transition: 0.3s;
+}
